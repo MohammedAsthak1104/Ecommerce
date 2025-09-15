@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+        height: 70px;
+        background-color: black;
+    }
+
+    ul {
+        width: 1454px;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        color: white;
+        list-style: none;
+        align-items: center;
+        gap: 90px;
+        font-size: 18px;
+        position: fixed;
+    }
+
+    input {
+        width: 250px;
+        height: 28px;
+        border-radius: 14px;
+        padding-left: 10px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    main {
+        width: 1454px;
+        height: 1500px;
+        background-color: rgb(214, 206, 206);
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        padding-top: 35px;
+        padding-left: 60px;
+    }
+
+    .box {
+        width: 300px;
+        height: 310px;
+        background-color: white;
+
+    }
+
+    .box1 {
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 244px;
+        height: 213px;
+
+    }
+
+    .brand {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 27px;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: left;
+        margin-left: 30px;
+    }
+
+    .full {
+        width: 244px;
+        height: 32px;
+        background-color: white;
+    }
+
+    .btn {
+        width: 109px;
+        height: 25px;
+        background-color: rgb(159, 204, 175);
+    }
+
+    table{
+        width: 550px;
+        height: auto;
+        background-color:rgb(124, 122, 122);
+        border-radius: 5px;
+        margin-left: 790px;
+    }
+    th{
+        font-size: 20px;
+    }
+    td{
+        padding-left: 20px;
+    }
+    #foot{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(122, 123, 108);
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><input type="text" placeholder="search for products"></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bill">Bill</a></li>
+            <li><a href="#foot">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main id="home">
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,ar_16:9,w_768/v1/img/recipes/24/34/38/aZtJWGP6QHK6mals9ewx_pizza%25202%2520(1%2520of%25201).jpg"
+                    alt="">
+                <div class="brand">
+                    <p>Spicy BBQ Pizza</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:360</p>
+                        </div>
+                        <div class="right">
+                            <button onclick="price(360,'Spicy BBQ Pizza')" class="btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+
+<img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="https://zenideen.com/wp-content/uploads/2020/06/originalrezept-margherita.jpg" alt="">
+                <div class="brand">
+                    <p>Margaitha</p>
+                    <div class="full">
+                        <div class="left">
+                            <p>Price:120</p>
+                        </div>
+                        <div class="right">
+                            <button class="btn" onclick="price(120,'Margaritha')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="machine">
+            <table border="2" id="bill">
+                <thead>
+                    <tr>
+                        <th>Name of Pizza</th>
+                        <th>Total Amount</th>
+                    </tr>
+
+                </thead>
+                <tbody id="tbdy">
+
+
+                </tbody>
+                <tfoot id="tfot">
+                   
+                </tfoot>
+            </table>
+        </div>
+
+    </main>
+    <footer id="foot">
+        <div class="footpara"></div>
+        <p>Our customer experience team is
+            available all days from
+            9am to 12.00pm to assist you with any
+            questions or issues you might have.
+            
+            EMAIL US
+            order@pizzahut.com
+            CALL US
+            0496-2573628</p>
+    </footer>
+
+</body>
+<script>
+    let arr = new Array();
+    function price(p, name) {
+        var row=document.createElement('tr')
+        var nam = document.createElement('td')
+        nam.innerHTML = name
+        row.appendChild(nam)
+        var amount = document.createElement('td')
+        amount.innerHTML=p
+        row.appendChild(amount)
+        document.getElementById("tbdy").appendChild(row)
+        arr.push(p)
+        var sum=0;
+        for (var i=0;i<arr.length;i++){
+            sum+=arr[i]
+        }
+        document.getElementById("tfot").innerHTML=""
+        var rowr=document.createElement('tr')
+        var totalprice = document.createElement('td')
+        totalprice.innerHTML = "Total Amount"
+        rowr.appendChild( totalprice)
+        var price=document.createElement('td')
+        price.innerHTML=sum
+        rowr.appendChild( price)
+        document.getElementById("tfot").appendChild(rowr)
+        console.log(arr);
+    }
+</script>
+
+</html>
